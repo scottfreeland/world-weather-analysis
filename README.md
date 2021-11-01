@@ -23,5 +23,7 @@ I even included an option for a user to plot out a full-circle trip with up to t
 
 ![Travel Map with Markers: Across Spain](Vacation_Itinerary/WeatherPy_travel_map_markers.png)
 
+![Travel Map Itinerary: Across Spain](Vacation_Itinerary/WeatherPy_travel_map.png)
+
 ## Summary
 With this code, PlanMyTrip allows customers to apply filters in terms of ideal locations where they'd like to vacation. They can find hotels for cities where they'd like to reside in - anywhere in the world!
