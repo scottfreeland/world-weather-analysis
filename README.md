@@ -3,16 +3,16 @@
 ## Project Overview
 The purpose of this analysis to help a top travel-technology company *PlanMyTrip* help collect and present data for customers via a search page. This page will be used by customers, upon which they'll filter based on their preferred travel criteria, in effort to help them find ideal hotels - anywhere in the world. 
 
-I used *citypy module* in a Jupyter Notebook to find 1500 random latitudes and longitudes. Then, I utilized my code to perform requests on the OpenWeatherMap API to retrieve JSON weather data from these cities. Upon the completion of my code, the end-user is now able to apply their own filters for their ideal weather conditions. Using this criteria, my code produces a global map with hotels that exist in cities with these preferred criteria. Hence, the customer can find a hotel in a city where they want to vacation.
+I used *citypy* module in a Jupyter Notebook to find 1500 random latitudes and longitudes. Then, I utilized my code to perform requests on the OpenWeatherMap API to retrieve JSON weather data from these cities. Upon the completion of my code, the end-user is now able to apply their own filters for their ideal weather conditions. Using this criteria, my code produces a global map with hotels that exist in cities with these preferred criteria. Hence, the customer can find a hotel in a city where they want to vacation.
 
 ## Resources
 - Data Sources: WeatherPy_vacation.csv, citipy module
 - Software: Python 3.8.8, Jupyter Notebook : 6.3.0, Visual Studio Code, 1.60.2
 
 ## Results
-I produced various maps which allow users information for hotels to book for their ideal vacations. There are markers to identify each map, and each marker holds the following information: hotel name, city name, country code, current weather description, and the max temperature recorded on the present day from which the data is being requested.
+I produced various maps which allow users information for hotels to book for their ideal vacations. There are markers to identify each hotel, with each marker holding the following information: hotel name, city name, country code, current weather description, and the max temperature recorded on the present day from which the data is being requested.
 
-Here is a map with available hotels for a customer's specific request.
+Here is a map with available hotels for an example customer's specifically filtered request.
 
 
 ![Available Hotels Across the World](Vacation_Search/WeatherPy_vacation_map.png)
