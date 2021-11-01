@@ -3,7 +3,7 @@
 ## Project Overview
 The purpose of this analysis to help a top travel-technology company *PlanMyTrip* help collect and present data for customers via a search page. This page will be used by customers, upon which they'll filter based on their preferred travel criteria, in effort to help them find ideal hotels - anywhere in the world. 
 
-I used *citypy module* in a Jupyter Notebook to find 1500 random latitudes and longitudes. Then, I utilized my code to perform requests on the OpenWeatherMap API to retrieve JSON weather data from these cities. This data was then added to a Pandas DataFrame. The end-user is then able to apply their own filters for their ideal weather conditions. Using this criteria, my code will produce a global map with hotels that exist in cities with these preferred criteria, so that the customer can find a hotel in a city where they want to vacation.
+I used *citypy module* in a Jupyter Notebook to find 1500 random latitudes and longitudes. Then, I utilized my code to perform requests on the OpenWeatherMap API to retrieve JSON weather data from these cities. Upon the completion of my code, the end-user is now able to apply their own filters for their ideal weather conditions. Using this criteria, my code produces a global map with hotels that exist in cities with these preferred criteria. Hence, the customer can find a hotel in a city where they want to vacation.
 
 ## Resources
 - Data Sources: WeatherPy_vacation.csv, citipy module
